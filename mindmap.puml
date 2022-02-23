@@ -1,16 +1,4 @@
 @startmindmap
-skinparam backgroundcolor transparent
-<style>
-arrow, node {
-    LineColor slategrey
-	LineThickness 1.5
-	Roun
-	Margin 5
-	Padding 5
-	RoundCorner 15
-	MaximumWidth 200
-}
-</style>
 +[#orange] Business Rules Analysis
 --[#lightblue] Scope
 ---[#lightblue] Business Policy
