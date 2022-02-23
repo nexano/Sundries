@@ -1,4 +1,5 @@
-@startuml
+@startmindmap
+skinparam backgroundcolor transparent
 <style>
 arrow, node {
     LineColor slategrey
@@ -10,4 +11,42 @@ arrow, node {
 	MaximumWidth 200
 }
 </style>
-@enduml
++[#orange] Business Rules Analysis
+--[#lightblue] Scope
+---[#lightblue] Business Policy
+----[#lightblue] Broad
+---[#lightblue] Business Rule
+----[#lightblue] Specific
+----[#lightblue] Practicable
+--[#lightcyan] Analysis
+---[#lightcyan] Capture
+----[#lightcyan] Explicit
+-----[#lightcyan] Policies
+-----[#lightcyan] Regulations
+-----[#lightcyan] Contracts
+----[#lightcyan] Tacit
+-----[#lightcyan] Know-hows
+-----[#lightcyan] Accepted Practices
+-----[#lightcyan] Corporate Culture
+---[#lightcyan] Validate
+---[#lightcyan] Refine
+---[#lightcyan] Organize
+++[#mediumaquamarine] Principles
++++[#mediumaquamarine] Separate from processes
++++[#mediumaquamarine] Deliberate Knowledge, Not A By-Product
++++[#mediumaquamarine] Declarative, Not Procedural
++++[#mediumaquamarine] Well-Formed Expression, Not Ad Hoc
++++[#mediumaquamarine] Business Logic, Not Hardware/Software
++++[#mediumaquamarine] Of, By and For Business People
+++[#lightgreen] Types
++++[#lightgreen] Definitional
+++++[#lightgreen] Cannot be violated
+++++[#lightgreen] Knowledge
+++++[#lightgreen] Calculation
++++[#lightgreen] Behavioral
+++++[#lightgreen] Can be violated
+++++[#lightgreen] Enforce
++++++[#lightgreen] No violation
++++++[#lightgreen] Override
++++++[#lightgreen] No
+@endmindmap
