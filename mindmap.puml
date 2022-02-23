@@ -1,3 +1,4 @@
+@startuml
 <style>
 arrow, node {
     LineColor slategrey
@@ -9,3 +10,4 @@ arrow, node {
 	MaximumWidth 200
 }
 </style>
+@enduml
