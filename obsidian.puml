@@ -3,7 +3,7 @@ skinparam backgroundcolor transparent
 arrow, node {
     LineColor slategrey
     LineThickness 1.5
-    Margin 4
+    Margin 6
     Padding 6
     RoundCorner 15
     MaximumWidth 200
