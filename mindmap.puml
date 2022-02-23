@@ -1,4 +1,4 @@
-@startuml
+@startmindmap
 skinparam backgroundcolor transparent
 <style>
 arrow, node {
@@ -49,4 +49,4 @@ arrow, node {
 +++++[#lightgreen] No violation
 +++++[#lightgreen] Override
 +++++[#lightgreen] No
-@enduml
+@endmindmap
