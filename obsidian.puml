@@ -1,11 +1,54 @@
 skinparam backgroundcolor transparent
 <style>
-arrow, node {
-    LineColor slategrey
-    LineThickness 1.5
-    Margin 6
-    Padding 6
-    RoundCorner 15
-    MaximumWidth 200
+mindmapDiagram {
+   .mm-1 {
+      BackGroundColor lightblue
+   }
+   .mm-2 {
+      BackGroundColor lightcyan
+   }   
+   .mm-3 {
+      BackGroundColor mediumaquamarine
+   }
+   .mm-4 {
+      BackGroundColor lightgreen
+   }
+   .mm-5 {
+      BackGroundColor palegoldenrod
+   }
+   .mm-6 {
+      BackGroundColor gold
+   }
+   .mm-7 {
+      BackGroundColor lightpink
+   }
+   .mm-8 {
+      BackGroundColor lightsalmon
+   }
+   .mm-9 {
+      BackGroundColor plum
+   }
+   .mm-10 {
+      BackGroundColor lightsteelblue
+   }
+   .mm-11 {
+      BackGroundColor lightslategrey
+   }
+    node {
+      LineColor slategrey
+	  LineThickness 1.5
+	  Margin 5
+      Padding 5
+	  RoundCorner 15
+	  MaximumWidth 300	  
+	}
+	arrow {
+	   LineColor slategrey
+	   LineThickness 1.5
+	}
+   :depth(0) {
+      BackGroundColor orange
+    }
 }
 </style>
+scale max 1000 width
