@@ -40,7 +40,7 @@ mindmapDiagram {
 	  Margin 5
       Padding 5
 	  RoundCorner 15
-	  MaximumWidth 250	  
+	  MaximumWidth 200	  
 	}
 	arrow {
 	   LineColor slategrey
