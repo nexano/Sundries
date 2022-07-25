@@ -57,7 +57,7 @@ mindmapDiagram {
 }
 wbsDiagram {
    node {
-      MaximumWidth 120
+      MaximumWidth 110
       Margin 10
    }
    :depth(1) {
