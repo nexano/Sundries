@@ -1,6 +1,6 @@
 skinparam backgroundcolor transparent
 <style>
-mindmapDiagram {
+mindmapDiagram, wbsDiagram {
    .mm-1 {
       BackGroundColor lightblue
    }
@@ -34,21 +34,25 @@ mindmapDiagram {
    .mm-11 {
       BackGroundColor lightslategrey
    }
-    node {
+   node {
       LineColor slategrey
-	  LineThickness 1.5
-	  Margin 5
+      LineThickness 1.5
+      Margin 5
       Padding 5
-	  RoundCorner 15
-	  MaximumWidth 150	  
-	}
-	arrow {
-	   LineColor slategrey
-	   LineThickness 1.5
-	}
+      RoundCorner 15
+      MaximumWidth 150	  
+   }
+   arrow {
+      LineColor slategrey
+      LineThickness 1.5
+   }
    :depth(0) {
       BackGroundColor orange
-    }
+   }
+}
+wbsDiagram {
+   depth(1) {
+      BackGroundColor orange
 }
 </style>
 scale max 800 width
