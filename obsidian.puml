@@ -50,7 +50,15 @@ mindmapDiagram, wbsDiagram {
       BackGroundColor orange
    }
 }
+mindmapDiagram {
+   node {
+      MaximumWidth 150
+   }
+}
 wbsDiagram {
+   node {
+      MaximumWidth 100
+   }
    depth(1) {
       BackGroundColor orange
 }
