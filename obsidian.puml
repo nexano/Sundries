@@ -60,7 +60,7 @@ wbsDiagram {
       MaximumWidth 120
       Margin 10
    }
-   depth(1) {
+   :depth(1) {
       BackGroundColor orange
 }
 </style>
