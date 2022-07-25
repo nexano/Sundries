@@ -36,8 +36,7 @@ mindmapDiagram, wbsDiagram {
    }
    node {
       LineColor slategrey
-      LineThickness 1.5
-      Margin 5
+      LineThickness 1.5      
       Padding 5
       RoundCorner 15
       MaximumWidth 150	  
@@ -53,11 +52,13 @@ mindmapDiagram, wbsDiagram {
 mindmapDiagram {
    node {
       MaximumWidth 150
+      Margin 5
    }
 }
 wbsDiagram {
    node {
-      MaximumWidth 100
+      MaximumWidth 120
+      Margin 10
    }
    depth(1) {
       BackGroundColor orange
