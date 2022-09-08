@@ -2,7 +2,7 @@ skinparam backgroundcolor transparent
 <style>
 mindmapDiagram, wbsDiagram {
    .mm-1 {
-      BackGroundColor lightblue
+      BackGroundColor lightskyblue
    }
    .mm-2 {
       BackGroundColor lightcyan
