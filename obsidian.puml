@@ -8,7 +8,7 @@ mindmapDiagram, wbsDiagram {
       BackGroundColor lightcyan
    }   
    .mm-3 {
-      BackGroundColor mediumseagreen
+      BackGroundColor limegreen
    }
    .mm-4 {
       BackGroundColor lightgreen
