@@ -1,0 +1,67 @@
+skinparam backgroundcolor transparent
+<style>
+mindmapDiagram, wbsDiagram {
+   .mm-1 {
+      BackGroundColor skyblue
+   }
+   .mm-2 {
+      BackGroundColor lightcyan
+   }   
+   .mm-3 {
+      BackGroundColor yellowgreen
+   }
+   .mm-4 {
+      BackGroundColor lightgreen
+   }
+   .mm-5 {
+      BackGroundColor palegoldenrod
+   }
+   .mm-6 {
+      BackGroundColor gold
+   }
+   .mm-7 {
+      BackGroundColor lightpink
+   }
+   .mm-8 {
+      BackGroundColor lightsalmon
+   }
+   .mm-9 {
+      BackGroundColor plum
+   }
+   .mm-10 {
+      BackGroundColor lightsteelblue
+   }
+   .mm-11 {
+      BackGroundColor lightslategrey
+   }
+   node {
+      LineColor slategrey
+      LineThickness 1.5      
+      Padding 5
+      RoundCorner 15
+      MaximumWidth 150	  
+   }
+   arrow {
+      LineColor slategrey
+      LineThickness 1.5
+   }
+   :depth(0) {
+      BackGroundColor orange
+   }
+}
+mindmapDiagram {
+   node {
+      MaximumWidth 150
+      Margin 5
+   }
+}
+wbsDiagram {
+   node {
+      MaximumWidth 100
+      Margin 10
+   }
+   :depth(1) {
+      BackGroundColor orange
+}
+</style>
+scale max 800 width
